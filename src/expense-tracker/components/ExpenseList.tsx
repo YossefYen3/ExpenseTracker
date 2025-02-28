@@ -44,7 +44,7 @@ const ExpenseList = ({ expenses, onDelete }: Props) => {
                     ))}
                 </tbody>
                 <tfoot>
-                    <tfoot>
+                   
                     <tr>
                         <td>Total</td>
                         <td>$
@@ -55,7 +55,7 @@ const ExpenseList = ({ expenses, onDelete }: Props) => {
                         <td></td>
                         <td></td>
                     </tr>
-                    </tfoot>
+                   
                 </tfoot>
     </table>
   );

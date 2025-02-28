@@ -40,7 +40,7 @@ function App() {
   return (
     <div>
       <div className="mb-5">
-        <ExpenseForm /> 
+        <ExpenseForm onSubmit={expense => setExpenses([...expenses])} /> 
       </div>
       <div className="mb-3 ">
         <ExpenseFilter
